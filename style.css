@@ -12,17 +12,17 @@ header {
     text-align: center;
 }
 
-main {
+.image-row {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1em;
+    flex-wrap: wrap; /* 画面サイズが小さい場合に画像が折り返されるように設定 */
 }
 
-main img {
-    width: 50%;
+.image-row img {
+    width: 30%; /* 画像の幅を30%に変更 */
     height: auto;
-    margin: 0 0.5em;
+    margin: 0.5em; /* 画像の間隔を調整 */
 }
 
 footer {
